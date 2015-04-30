@@ -1,0 +1,123 @@
+@import "bootstrap-sprockets";
+@import 'bootstrap';
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+ 
+ body{
+
+ 	font-family: 'Lato', sans-serif;
+ 	background-color:#ECF0F1;
+ 	color:#fff;
+
+ }
+ .noborder{
+ 	border:none;
+ }
+
+.pl{
+	margin-bottom:0;
+}
+
+ .colorb{
+
+ 	background:#1FBEA4 !important;
+ }
+
+ .carousel-caption{
+
+	background-color:rgba(0, 0, 0, 0.4);
+ }
+
+.mt{
+	margin-top:5% !important;
+}
+
+.flato{font-family: 'Lato', sans-serif;}
+
+.ftmontse{font-family: 'Montserrat', sans-serif;background-color:black;font-size:15em;}
+
+.fpmontse{font-family: 'Montserrat', sans-serif;}
+
+.carosel{
+
+	height: 50% !important;
+	background: #fff;
+}
+
+.padding-15{
+
+	padding:15%;
+}
+.tdiv{
+
+	width:65%;
+}
+
+.tdiv2{
+
+	width:80%;
+}
+
+.widthb{
+
+	width:80%;
+}
+
+.fxs{
+
+	font-size:1em;
+}
+
+.margin-l{
+
+	margin-right:1%;
+}
+
+.colorgreen{
+
+	background-color:#757D75 !important;
+}
+
+.texto-blanco{
+color:#fff !important;
+
+}
+
+
+.coloryelow{
+	background-color:#26C281;
+}
+
+.tadi{
+
+	width:100%;
+}
+
+
+/* title */
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #B7B7B7;
+}
+
+.divlogin{
+
+	width:70%;
+	background-color:#459F86;
+
+}
+
+.tb{
+	width:100%;
+}
+
+.fontwhite{
+	color:#fff;
+}
+
+.colorgreen2{
+	background-color:#4FC5AD;
+}

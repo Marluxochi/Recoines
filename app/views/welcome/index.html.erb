@@ -1,0 +1,164 @@
+<nav class="navbar navbar-default colorgreen noborder">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">RECOINES</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <!-- Button trigger modal -->
+        <div class="navbar-right">
+          <button type="button" class="noborder btn btn-default navbar-btn  coloryelow texto-blanco" data-toggle="modal" data-target="#myModal">
+            Iniciar Sessión
+          </button>
+          <button type="button" class="noborder btn btn-default navbar-btn coloryelow texto-blanco" data-toggle="modal" data-target="#myModal1">
+            Registrarse
+          </button>
+        </div>
+
+          
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- Aqui Termina la barra de navegación-->
+<!--Este es el modal del Inicio de sesión-->
+
+<!--termina modal inicio session-->
+
+ <!-- Modal 1-->
+          <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-user"></span>Iniciar Sesión en Recoines</h4>
+                </div>
+                <div class="modal-body ">
+                
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+  <!-- Modal -->
+          <div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog ">
+              <div class="modal-content divlogin center-block">
+                <div class="modal-header">
+
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-user"></span> Iniciar Sesión en Recoines</h4>
+                </div>
+                <div class="modal-body ">
+                     <%= image_tag "user.png", :class =>"img-responsive img-circle center-block"%>
+                     <br>
+                    
+                    <form role="form">
+                      <div class="form-group">
+                        
+                        <div class="input-group input-group-lg">
+                          <span class="input-group-addon fontwhite colorgreen2 noborder"><i class="glyphicon glyphicon-user"></i></span>
+                        <div class="icon-addon addon-lg">
+                        <input type="text" placeholder="Numero de control" class="form-control input-lg" id="numcon">
+                        
+                        </div>
+                        
+                      </div>
+                      </div>
+                      <div class="form-group">
+                        
+                        <div class="input-group input-group-lg">
+                          <span class="input-group-addon fontwhite colorgreen2 noborder"><i class="glyphicon glyphicon-lock"></i></span>
+                        <div class="icon-addon addon-lg">
+                        <input type="text" placeholder="contraseña" class="form-control input-lg" id="email">
+                        
+                        </div>
+                        
+                      </div>
+                      </div>
+                      
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox"> Recordar sesión
+                        </label>
+                      </div>
+                      <button type="submit" class="btn btn-default btn-lg tb colorgreen2 fontwhite noborder">Iniciar sesion</button>
+                  </form>
+                  
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<!---->
+
+      
+<div class="container">
+  <div class="row">
+    
+    </div> 
+      <div class="col-xs-12 col-md-12 col-lg-12">
+          
+        <div id="Micarruel" class="carousel slide" data-ride="carousel">
+ 
+              <ol class="carousel-indicators">
+                <li data-target="#Micarruel" data-slide-to="0" class="active"></li>
+                <li data-target="#Micarruel" data-slide-to="1"></li>
+                <li data-target="#Micarruel" data-slide-to="2"></li>
+              </ol>
+
+              
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                   <%= image_tag "4.jpg"%>
+                  <div class="carousel-caption">
+                    <h3>Concurso espacial para descubrir el planeta x</h3>
+                    <p>Se llevo a cabo el la decima busqueda del planeta x</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <%= image_tag "3.jpg"%>
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+              </div>
+
+              
+              <a class="left carousel-control" href="#Micarruel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+              </a>
+              <a class="right carousel-control" href="#Micarruel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+              </a>
+          </div>
+      </div>
+    </div>
+    
+    <div class="row"></div>
+
+  </div>
+
+</div>        
+
+        
+</div>
